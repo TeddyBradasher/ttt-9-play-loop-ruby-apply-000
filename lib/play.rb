@@ -40,6 +40,6 @@ def play(board)
   board = 1
   while board < 8 
     puts turn(board)
-  board += 1
+    break
   end 
 end 

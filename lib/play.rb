@@ -40,6 +40,6 @@ def play(board)
   board = 1
   until turn(board) == 8
   
-    puts turn(board)
+    turn(board)
   end 
 end 

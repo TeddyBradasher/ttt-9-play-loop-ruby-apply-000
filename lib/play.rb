@@ -36,7 +36,7 @@ def turn(board)
 end
 
 # Define your play method below
-def play(board)
+def play(board, "X")
   turn = 1
   until turn == 8
     puts turn

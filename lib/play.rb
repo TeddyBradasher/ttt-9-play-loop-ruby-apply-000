@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   board = 1
-  until board == 8
+  while board < 8 
     puts turn(board)
   board += 1
   end 

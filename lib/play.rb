@@ -36,10 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
-def play(board, "X")
-  turn = 1
-  until turn == 8
+def play(board)
+  board = 1
+  until board == 8
     puts turn
-  turn += 1
+  board += 1
   end 
 end 
